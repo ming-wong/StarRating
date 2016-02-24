@@ -10,7 +10,8 @@ namespace StarRating
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
-                        "~/Scripts/jstarbox.js"));
+                        "~/Scripts/jstarbox.js",
+                        "~/Scripts/jquery.raty.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

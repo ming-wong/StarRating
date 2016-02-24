@@ -3,19 +3,16 @@
 <html lang="en">
 <head>
     <title> jRate - JQuery Plugin | toolitup.com</title>
-    <link href="~/Content/jstarbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/jquery.raty.css">
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/jstarbox.js"></script>
+    <script src="~/Scripts/jquery.raty.js"></script>
 </head>
 <body>
     <h2>jstarbox Demo Page</h2>
-    <div class="starbox"></div>
+    <div id="Test"></div>
+
     <script type="text/javascript">
-        $('.starbox').starbox({
-            average: 0,
-            autoUpdateAverage: true,
-            ghosting: true
-        });
+        $('#Test').raty();
     </script>
 </body>
 </html>
